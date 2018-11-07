@@ -5,4 +5,5 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'webcam', component: WebcamComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
+  {path: '**', data: { error: 404 }, redirectTo: '/login'}
 ];

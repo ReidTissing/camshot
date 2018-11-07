@@ -4,4 +4,5 @@ import {WebcamComponent} from './webcam/webcam.component';
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'webcam', component: WebcamComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];

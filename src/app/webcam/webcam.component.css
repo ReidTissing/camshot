@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.row {
+margin:0;
+}
+.nav {
+  margin: 0px;
+}
+.btn {
+  margin: 5px;
+}
+body {
+    background-color: #F0F0F0;
+}
+#app {
+    text-align: center;
+
+    margin: 0px;
+}
+#video {
+    background-color: #000000;
+    margin: 0;
+    text-align: center;
+
+}
+#canvas {
+    display: none;
+    width: 100px;
+}
+li {
+    display: inline;
+    padding: 5px;
+}
